@@ -1,6 +1,6 @@
 /*
 Theme Name: Oliver
-Theme URI: http://olivercleaning.com/oliver
+Theme URI: https://lightslategray-kingfisher-564139.hostingersite.com/oliver
 Author: Flaviasig
 Author URI: https://flaviasiv.github.io/Portifolio-Flavia-Sigoli/
 Description: Um tema simples para WordPress.
@@ -105,7 +105,7 @@ swiper-container{
     top: 0;
     left: 0;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.75) 100%)  no-repeat;    
-    width:100vw;
+    width:100%;
     height: 930px;
     z-index: 1;
 }
@@ -160,7 +160,7 @@ swiper-slide.swiper1 {
     margin-right: 5px;
 } */
 .bg-blue-l{
-    background: url(./assets/Component1.png) no-repeat;
+    background: url(https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/Component1.png) no-repeat;
     background-position: 100%;
     background-size: cover;
     z-index: 8;
@@ -332,7 +332,7 @@ swiper-slide.swiper1 {
     margin: auto;
 }
 .aboutcontainer{
-    background: url(./assets/Union.png) no-repeat;
+    background: url(https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/Union.png) no-repeat;
     background-position: 100%;
     background-size: cover;
     background-position: top;
@@ -384,7 +384,7 @@ swiper-slide.swiper1 {
     line-height: 200%; /* 24px */
 }
 .bg-blue-r{
-    background:url(./assets/bright-light-black-background2.png);
+    background:url(https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/bright-light-black-background2.png);
     background-position: 100%;
     background-size: cover;
     background-position: center;
@@ -448,13 +448,21 @@ swiper-slide.swiper1 {
 .gallerycontainer{
     display: flex;
     flex-direction: column;
-    position: relative;
+    padding: 50px 0;
 }
 .gallerytitle{
     display: flex;
     width: 100%;
     max-width: 1000px;
     margin: auto;
+    padding-bottom: 30px;
+}
+.gallerytitle h2{
+    color: var(--Color-Neutral-white, #FFF);
+    font-size: 48px;
+    font-weight: 400;
+    max-width: 200px;
+    line-height: 90%; /* 43.2px */
 }
 .line{
     position: absolute;
@@ -462,9 +470,6 @@ swiper-slide.swiper1 {
     max-width: 70vw;
     top: 70px;
     right: 0;
-}
-.gallerycontainer{
-    padding: 50px 0;
 }
 .title small{
     letter-spacing: 5.4px;
@@ -536,9 +541,507 @@ swiper-slide.swiper1 {
         max-height: 450px;
     }    
 }
-.areascontainer{
-    color: #000;
+.overlay2{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.70) 100%)  no-repeat;
+    height: 101%;
+    top: -1px; 
 }
-.contactcontainer{
-    background: url(./assets/);
+.contactcontainer video{
+    height: 100%;
+    top: 0;
+}
+.contactcontainer {
+    position: relative;
+    padding: 200px 0;
+}
+.contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    max-width: 500px;
+    border-radius: 10px;
+    color:#100F0D;
+    z-index: 8;
+    margin: auto;
+    padding: 40px 64px;
+    text-align: center;
+    gap: 8px;
+}
+.contact small{    
+    letter-spacing: 5.4px;
+    text-transform: uppercase;
+}
+.areascontainer{
+    background: url(https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/bright-light-black-background1-1.png) no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px 0;
+}
+.areastitle, .areas, .locationcontainer ul{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+.areastitle h2{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 90%; 
+}
+.areas{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.listareas {
+    display: flex;
+    width: 100%;
+    max-width: 250px;
+    justify-content: center;
+    gap: 40px;
+    text-align: left;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 140%; 
+}
+/* .listareas ul li{
+    text-decoration: none;
+}
+.listareas ul li:before {
+    content:"·";
+    font-size:25px;
+    margin-right: 10px;
+} */
+.locationcontainer ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    max-width: 800px;
+}
+.locationcontainer h5{
+    display: flex;
+    gap: 5px;
+    color: var(--Color-Brand-secondary, #78C2DD);
+    font-family: 'Poppins';
+    font-size: 17.984px;
+    font-weight: 600;
+    line-height: 140%; 
+}
+.locationcontainer p{
+    color: var(--Color-Neutral-white, #FFF);
+    font-family: 'Poppins';
+    font-size: 15.415px;
+    font-weight: 400;
+    line-height: 190%;
+}
+/* pages style */
+.content{
+    background-color: #100F0D;
+}
+.contentservices, .contentgrid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    padding-top: 100px;
+}
+.contenttitle{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.contenttitle h2{
+    color: var(--Color-Neutral-white, #FFF);
+    text-align: center;
+    font-family: "Glacial Indifference";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 90%; /* 43.2px */
+}
+.contenttitle h2 span{
+    color: var(--Color-Neutral-white, #FFF);
+    text-align: center;
+    font-family: "Eyesome Script";
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 80%; /* 76.8px */
+    text-transform: lowercase;
+}
+.contenttitle p{
+    color: var(--Color-Brand-secondary, #78C2DD);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%; /* 24px */
+    max-width: 635px;
+}
+.content .btnestimate{
+    margin-top: -100px;
+}
+.contentgrid{
+    flex-direction: row;
+    max-width: 1100px;
+    padding-bottom: 40px;
+}
+.content-auto{
+    max-width: 540px;
+}
+.content-post{
+    max-width: 840px;
+}
+.content-garage{
+    max-width: 100%;
+    justify-content: center;
+}
+.content-move{
+    max-width: 1100px;
+}
+.contentcard{
+    border-radius: 20px;
+    border: 2px solid var(--Color-Brand-main, #3481B5);
+    display: flex;
+    width: 265px;
+    height: 351px;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    padding: 25px 20px 0;
+}
+.contentcard h2{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--Color-Brand-main, #3481B5);
+    font-family: "Bebas Neue";
+    font-size: 24.337px;
+    font-weight: 700;
+    line-height: 100%; /* 24.337px */
+    letter-spacing: 4.867px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-align: center;
+}
+.content-post .contentcard h2, .content-up .contentcard h2{
+    letter-spacing: 4px;
+}
+.contentcard ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.contentcard li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--Color-Brand-main, #fff);
+    font-size: 11.827px;
+    font-weight: 400;
+    line-height: 150%; /* 17.74px */
+}
+.contentcard li svg{
+    min-width: 20px;    
+}
+
+.gridmobile{display: none;}
+
+@media screen and (max-width:890px) {
+    .areas{
+        flex-direction: column;
+    }
+    .poster{
+        padding: 150px 0 90px;
+    }
+    .postercontainer video{
+        top: 0;
+        width: 100vw;    
+    }
+    .overlay {
+        width: 100vw;    
+    }
+    .logo-poster{
+        max-width: 170px;
+    }
+    .posterinfos {
+        text-align: center;
+    }
+    .posterinfos h2{
+        font-size: 26px;
+    }
+    .posterinfos h1{
+        font-size: 40px;
+        padding: 0 5px;
+     }
+     .bg-blue-l{
+        padding: 200px 0;
+     }
+    .servicestitle{
+        text-align: center;
+        padding: 0 10px;
+        gap: 16px;    
+    }
+    .servicestitle h2, .servicestitle p{
+        margin: auto;
+    }
+    .griddesk{display: none;}
+    .gridmobile{display: flex;
+        max-width: 900px;
+        margin: auto;
+        justify-content: center;
+        padding: 50px 0 0;
+    }
+    .mySwiper3{
+        width: 100%;
+        height:550px;
+        max-width: 100vw;
+        cursor: grab;
+        margin: 0 auto !important;
+
+    }
+    .swiper3{
+        width: 100%;
+        max-width: 320px;
+        height: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .bgcard{
+        width: 348px;
+        margin: auto;
+        border-radius: 16px;
+        object-fit: cover !important;
+    }
+    .swiper3 .cardresidential img{
+        height: 430px;
+        border-radius: 16px;
+        background-position: left;
+    }
+    .cardtitle h3{
+        white-space: nowrap;
+        font-size: 17.88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 17.88px */
+    letter-spacing: 5.364px;
+
+    }
+    .cardresidential{
+        max-width: 315px;
+    }
+    .cardresidential .cardtext, .cardtext{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .reviewscontainer, .contactcontainer{
+        padding: 50px 0;
+    }
+    .about{
+        flex-direction: column;
+        padding: 0 20px;
+        align-items: center;
+        text-align: center;
+    }
+    .count{
+        margin-bottom: 40px;
+    }
+    .count h1{
+        font-size: 150px;
+    }
+    .count h3{
+        font-size: 42px;
+    }
+    .aboutinfos{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        max-width: 450px;
+    }
+    .aboutinfos small{
+        text-transform: uppercase;
+        letter-spacing: 5.4px;
+    }
+    .aboutinfos .btnestimate{
+        margin: auto;
+    }
+    .aboutinfos h3{
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 90%; /* 43.2px */
+        width: 371px;
+    }
+    .aboutinfos p{
+        font-family: 'Inter';
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 200%; /* 24px */
+    }
+    .preferencecontainer{
+        padding: 300px 30px 50px 10px;
+        text-align: center;
+    }
+    .preferencecontainer img{
+        position: absolute;
+        top: 30px;
+        width:240px;
+        height: auto;
+        object-fit: cover;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .preferenceinfo{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        max-width: 394px;
+        margin: auto;
+    }
+    .preferenceinfo small, .preferenceinfo h2, .preferenceinfo p{
+        margin: auto;
+    }
+    .preferencegrid{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        margin: auto;
+    }
+    .preferencecard{
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        max-width: 250px;
+        margin: auto;
+    }
+    .preferencecard h5{
+        white-space: wrap;
+        text-align: left;
+    }
+    .preferencecard svg{
+        min-width: 56px;
+        height: 56px;
+    }
+    .gallerytitle{
+        padding-left: 20px;
+    }
+    .gallerytitle h2{
+        font-size: 40px;
+    }
+    .line{
+        max-width: 40vw;
+        top: 100px;
+    }
+    .igtitle{
+        padding-left: 20px;
+    }
+    .contact{
+        max-width: 380px;
+        padding: 40px 64px;
+        gap: 8px;
+    }
+    .areascontainer{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .areastitle h2{
+        white-space: nowrap;
+    }
+    .mapcontainer img{
+        width: 100%;
+        max-width: 395px;
+        height: 247px;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+    .listareas{
+        padding-top: 30px;
+        margin: auto;
+    }
+    .locationcontainer ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .locationcontainer ul h5{
+        justify-content: center;
+    }
+    /* pages style */ 
+    .contentservices{
+        flex-direction: column;
+        padding: 120px 10px 0;
+    }
+    .contenttitle{
+        text-align: center;
+    }
+    .contenttitle h2{
+        color: var(--Color-Brand-main, #3481B5);
+        font-family: "Bebas Neue";
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 80%; 
+    }
+    .contenttitle h2 span{
+        color: var(--Color-Brand-main-high, #2A315D);
+    }
+    .contenttitle .btnestimate{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .contentservices img{
+        height: 385px;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+    .contentgrid{
+        flex-wrap: wrap;
+        max-width: 375px;
+        gap: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .contentcard{
+        border-radius: 20px;
+        border: 2px solid var(--Color-Brand-main, #3481B5);
+        display: flex;
+        width: 180px;
+        height: 301px;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding: 18px 0 0 10px;
+    }
+    .content img{
+        width: 100%;
+    }
+    .contentcard h2{
+        font-size: 18px;
+        letter-spacing: 4px;
+    }
+    .contentcard ul{
+        gap: 3px;
+    }
+    .contentcard li{
+        gap: 5px;
+        font-size: 11px;
+        line-height: 120%; 
+    }
+    .contentcard li svg{
+        min-width: 17px;    
+        max-width: 17px;    
+    }
+    .mission h2, .reviewstitle h2, .areastitle h2{
+        font-size: 60px;
+    }
+    .areastitle h2, .gallerytitle h2{
+        font-size: 50px;
+    }
+    .contacttitle h2{
+        font-size: 60px;
+    } 
 }
