@@ -1,0 +1,128 @@
+footer{
+    padding-top: 15%;
+}
+.footergrid{
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    justify-content: space-between;
+    color: #2A315D;
+    margin: auto;
+    padding: 50px 80px 0 50px;
+font-family: 'Poppins';
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.footerabout ul li{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 190%; 
+}
+.footerabout ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.footerabout ul h5{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 140%; 
+}
+.footernav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.opentime ul li{
+    font-family: 'Poppins';
+    font-size: 12.676px;
+    font-weight: 400;
+    line-height: 190%; /* 24.085px */
+}
+.address{
+    font-size: 14.789px;
+    font-weight: 600;
+    line-height: 140%;
+}
+.address ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 5px;
+}
+.address ul li a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.address li svg{
+    fill: #2A315D;
+}
+.rights{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 90px;
+    align-items: center;
+    text-align: center;    
+}
+.rights ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.rights ul li a{
+    color: #2A315D;
+}
+.rights p, .rights ul li{
+    color: #2A315D;
+    font-size: 14.4px;
+    font-weight: 300;
+    line-height: 150%;
+}
+footer a:hover, footer a:hover svg{
+    color: #3481B5;
+    fill: #3481B5;
+}
+@media screen and (max-width:890px) {
+    .footergrid{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 50px 50px 0 50px;
+    }
+    .footerabout ul, .footerabout li {
+        align-items: center;
+    }
+    .footergrid div{
+        padding: 20px 0;
+        border-top: 2px solid #2A315D;
+        width: 200px;
+    }
+    .address ul li{
+        margin: auto;
+    }
+    .rights{
+        flex-direction: column;
+        padding: 30px 0 0 !important;
+        height: 120px !important;
+    }
+    .rights ul{
+        flex-direction: column;
+        gap: 0px !important;
+    }
+}
