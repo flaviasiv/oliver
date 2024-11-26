@@ -98,7 +98,7 @@ footer ul{
 .address li svg{
     fill: #fff;
 }
-.rights{
+.footer-credits{
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -111,15 +111,15 @@ footer ul{
     text-align: center;    
     border-top: 1px solid #3481B5;
 }
-.rights ul{
+.footer-credits ul{
     display: flex;
     gap: 20px;
     list-style: none;
 }
-.rights ul li a{
+.footer-credits ul li a{
     color: #78C2DD;
 }
-.rights p, .rights ul li{
+.footer-credits p, .footer-credits ul li{
     color: #78C2DD;
     font-size: 14.4px;
     font-weight: 300;
@@ -153,12 +153,12 @@ footer a:hover, footer a:hover svg{
     .address ul li{
         margin: auto;
     }
-    .rights{
+    .footer-credits{
         flex-direction: column;
         padding: 30px 0 0 !important;
         height: 120px !important;
     }
-    .rights ul{
+    .footer-credits ul{
         flex-direction: column;
         gap: 0px !important;
     }
@@ -231,13 +231,11 @@ footer a:hover, footer a:hover svg{
 
     <div class="footer-credits">
         <p>&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. All rights reserved.</p>
-        <div class="rights">
-            <ul>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Cookies Settings</a></li>
-            </ul>
-        </div>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookies Settings</a></li>
+        </ul>
     </div>
 </footer>
 
