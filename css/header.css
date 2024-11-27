@@ -129,15 +129,14 @@ header {
   stroke: #fff;
   width: 21px;
 }
-/* .callnow a:hover{
-background: #3481B5;
+.callnow a:hover{
+background: #3E606C;
 transition: 0.15s;
-color: #fff;
 }
-.callnow a:hover svg{
-  stroke: #fff;
-  transition: 0.15s;
-} */
+.menusocial ul li a:hover svg circle{
+  fill: #3E606C;
+transition: 0.15s;
+}
 .btn-toggle{display: none;}
 .logo-m{
 z-index: 9;

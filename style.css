@@ -1,6 +1,6 @@
 /*
 Theme Name: Oliver
-Theme URI: https://lightslategray-kingfisher-564139.hostingersite.com/oliver
+Theme URI: https://oliverscleaning.com/oliver
 Author: Flaviasig
 Author URI: https://flaviasiv.github.io/Portifolio-Flavia-Sigoli/
 Description: Um tema simples para WordPress.
@@ -153,14 +153,14 @@ swiper-slide.swiper1 {
     align-items: center;
     list-style: disc;
 }
-/* .firstswip ul li:before {
+.firstswip ul li:before {
     content:"·";
-    color: #3481B5;
+    color: #78C2DD;
     font-size:30px;
     margin-right: 5px;
-} */
+}
 .bg-blue-l{
-    background: url(https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/Component1.png) no-repeat;
+    background: url(https://oliverscleaning.com/wp-content/uploads/2024/11/Component1.png) no-repeat;
     background-position: 100%;
     background-size: cover;
     z-index: 8;
@@ -204,15 +204,17 @@ swiper-slide.swiper1 {
     row-gap: 50px;
     padding: 50px 0;
 }
-.servicesgrid .servicescard img:hover{
-    transition: 0.1s;
-}
 .servicescard{
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 24px;
     max-width: 315px;
+}
+.servicesgrid .servicescard:hover img{
+    box-shadow: 0px 0px 82.9px 0px var(--Color-Brand-secondary, #78C2DD);
+    transform: scale(1.04);
+    transition: 0.1s;
 }
 .cardresidential{
     max-width: 1080px;
@@ -233,6 +235,7 @@ swiper-slide.swiper1 {
 .servicescard img{
     width: 100%;
     object-fit: cover;
+    border-radius: 16px;
 }
 .cardtext{
     display: flex;
@@ -282,6 +285,11 @@ swiper-slide.swiper1 {
 .btnservices svg, .btnestimate svg{
     fill: #fff;
 }
+.btnestimate:hover, .btnservices:hover{
+    background: #3E606C;
+    transition: 0.2s;
+    transform: scale(1.05);
+}
 .cardresidential 
 .cardtext{
     padding: 0 227px;
@@ -313,6 +321,10 @@ swiper-slide.swiper1 {
     font-weight: 400;
     line-height: 80%;
 }
+.reviewsgrid{
+    max-width: 700px;
+    margin: auto;
+}
 .reviewscontainer.btnestimate{
     margin-bottom: 20px;
 }
@@ -332,7 +344,7 @@ swiper-slide.swiper1 {
     margin: auto;
 }
 .aboutcontainer{
-    background: url(https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/Union.png) no-repeat;
+    background: url(https://oliverscleaning.com/wp-content/uploads/2024/11/Union.png) no-repeat;
     background-position: 100%;
     background-size: cover;
     background-position: top;
@@ -384,7 +396,7 @@ swiper-slide.swiper1 {
     line-height: 200%; /* 24px */
 }
 .bg-blue-r{
-    background:url(https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/bright-light-black-background2.png);
+    background:url(https://oliverscleaning.com/wp-content/uploads/2024/11/bright-light-black-background2.png);
     background-position: 100%;
     background-size: cover;
     background-position: center;
@@ -435,6 +447,9 @@ swiper-slide.swiper1 {
     display: flex;
     align-items: center;
     gap: 24px;
+}
+.preferencecard svg{
+    width: 56px;
 }
 .preferencecard h5{
     color: var(--Color-Brand-secondary, #78C2DD);
@@ -572,8 +587,12 @@ swiper-slide.swiper1 {
     letter-spacing: 5.4px;
     text-transform: uppercase;
 }
+.textarea{
+    resize: none;
+    height: 200px;
+}
 .areascontainer{
-    background: url(https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/bright-light-black-background1-1.png) no-repeat;
+    background: url(https://oliverscleaning.com/wp-content/uploads/2024/11/bright-light-black-background1-1.png) no-repeat;
     background-position: 100%;
     background-size: cover;
     background-position: center;
@@ -589,6 +608,12 @@ swiper-slide.swiper1 {
     font-size: 48px;
     font-weight: 400;
     line-height: 90%; 
+}
+.mapcontainer iframe{
+    width: 754px;
+    height: 247px;
+    flex-shrink: 0;
+    border-radius:  16px;
 }
 .areas{
     display: flex;
@@ -707,7 +732,7 @@ swiper-slide.swiper1 {
 }
 .contentcard{
     border-radius: 20px;
-    border: 2px solid var(--Color-Brand-main, #3481B5);
+    border: 2px solid var(--Color-Brand-main, #78C2DD);
     display: flex;
     width: 265px;
     height: 351px;
@@ -720,7 +745,7 @@ swiper-slide.swiper1 {
     display: flex;
     align-items: center;
     gap: 8px;
-    color: var(--Color-Brand-main, #3481B5);
+    color: var(--Color-Brand-main, #78C2DD);
     font-family: "Bebas Neue";
     font-size: 24.337px;
     font-weight: 700;
@@ -953,12 +978,14 @@ swiper-slide.swiper1 {
     .areastitle h2{
         white-space: nowrap;
     }
-    .mapcontainer img{
+    .mapcontainer{
+        display: flex;
+        justify-content: center;
+    }
+    .mapcontainer iframe{
         width: 100%;
         max-width: 395px;
         height: 247px;
-        object-fit: cover;
-        border-radius: 16px;
     }
     .listareas{
         padding-top: 30px;

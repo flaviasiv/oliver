@@ -117,10 +117,10 @@ footer ul{
     list-style: none;
 }
 .footer-credits ul li a{
-    color: #78C2DD;
+    color: #fff;
 }
 .footer-credits p, .footer-credits ul li{
-    color: #78C2DD;
+    color: #fff;
     font-size: 14.4px;
     font-weight: 300;
     line-height: 150%;
@@ -170,7 +170,7 @@ footer a:hover, footer a:hover svg{
     <!-- Código personalizado antes dos widgets -->
         <div class="footergrid">
           <div class="footerabout">
-            <img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/oliver-logo.png" alt="">
+            <img src="https://oliverscleaning.com/wp-content/uploads/2024/11/oliver-logo.png" alt="">
           </div>
               <div class="footernav">
                   <ul>
@@ -204,18 +204,17 @@ footer a:hover, footer a:hover svg{
                   <h3>Follow us</h3>
                     <ul>
                         <li>
-                          <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                          <a href="https://www.facebook.com/profile.php?id=61558501535286"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
                           <path d="M22.6665 12.3033C22.6665 6.7467 18.1894 2.24219 12.6665 2.24219C7.14365 2.24219 2.6665 6.7467 2.6665 12.3033C2.6665 17.325 6.32334 21.4874 11.104 22.2422V15.2116H8.56494V12.3033H11.104V10.0867C11.104 7.56515 12.597 6.17231 14.8811 6.17231C15.9753 6.17231 17.1196 6.36882 17.1196 6.36882V8.8448H15.8587C14.6165 8.8448 14.229 9.62041 14.229 10.4161V12.3033H17.0024L16.5591 15.2116H14.229V22.2422C19.0097 21.4874 22.6665 17.3252 22.6665 12.3033Z" fill="inherit"/>
                         </svg> Facebook</a></li>
                         <li>
-                          <a href="#" target="_blank"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <a href="https://www.instagram.com/oliverscleaningoh/" target="_blank"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6665 3.24219H8.6665C5.90508 3.24219 3.6665 5.48077 3.6665 8.24219V16.2422C3.6665 19.0036 5.90508 21.2422 8.6665 21.2422H16.6665C19.4279 21.2422 21.6665 19.0036 21.6665 16.2422V8.24219C21.6665 5.48077 19.4279 3.24219 16.6665 3.24219ZM19.9165 16.2422C19.911 18.0348 18.4591 19.4867 16.6665 19.4922H8.6665C6.87385 19.4867 5.42199 18.0348 5.4165 16.2422V8.24219C5.42199 6.44954 6.87385 4.99768 8.6665 4.99219H16.6665C18.4591 4.99768 19.911 6.44954 19.9165 8.24219V16.2422ZM17.4165 8.49219C17.9688 8.49219 18.4165 8.04447 18.4165 7.49219C18.4165 6.93991 17.9688 6.49219 17.4165 6.49219C16.8642 6.49219 16.4165 6.93991 16.4165 7.49219C16.4165 8.04447 16.8642 8.49219 17.4165 8.49219ZM12.6665 7.74219C10.1812 7.74219 8.1665 9.75691 8.1665 12.2422C8.1665 14.7275 10.1812 16.7422 12.6665 16.7422C15.1518 16.7422 17.1665 14.7275 17.1665 12.2422C17.1692 11.0479 16.6959 9.90176 15.8514 9.05727C15.0069 8.21278 13.8608 7.73953 12.6665 7.74219ZM9.9165 12.2422C9.9165 13.761 11.1477 14.9922 12.6665 14.9922C14.1853 14.9922 15.4165 13.761 15.4165 12.2422C15.4165 10.7234 14.1853 9.49219 12.6665 9.49219C11.1477 9.49219 9.9165 10.7234 9.9165 12.2422Z" fill="inherit"/>
                           </svg>
                           Instagram</a></li>
                     </ul>
                 </div>
           </div>
-        </div>
 
     <div class="footer-widgets">
         <?php if ( is_active_sidebar( 'footer-1' ) ) : ?>

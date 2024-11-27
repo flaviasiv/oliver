@@ -30,11 +30,11 @@
           <div class="postercontainer container">
               <div class="poster">
                 <div class="posterinfos infosw">
-                    <img class="logo-poster" src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/oliver-logo.png" alt="">
+                    <img class="logo-poster" src="https://oliverscleaning.com/wp-content/uploads/2024/11/oliver-logo.png" alt="">
                     <h2>Your Ultimate</h2>
                     <h1>cleaning support</h1>
                 </div>
-                <video class="videoposter" src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/53abd497c3c48cc93bdff996fbd9be6a.mp4" autoplay playsinline muted loop></video>
+                <video class="videoposter" src="https://oliverscleaning.com/wp-content/uploads/2024/11/53abd497c3c48cc93bdff996fbd9be6a.mp4" autoplay playsinline muted loop></video>
                 <div class="overlay"></div>
               </div>
               <div class="firstswip container">
@@ -135,6 +135,23 @@
                     <p>With us you can trust that your space will look pristine and feel inviting, promoting a healthier and more enjoyable environment around you!</p>
                   </div>
                   <div class="servicesgrid griddesk">
+                    <div class="servicescard cardresidential aos-fade">
+                      <div class="cardtitle">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15 0L19.0514 10.9486L30 15L19.0514 19.0514L15 30L10.9486 19.0514L0 15L10.9486 10.9486L15 0Z" fill="#78C2DD"/>
+                          </svg>
+                          <h3>Residential <br>Cleaning</h3> 
+                      </div>
+                      <a class="carda" href="https://oliverscleaning.com/residentialcleaning"><img src="https://oliverscleaning.com/wp-content/uploads/2024/11/serviceresidential.png" alt="" class="bgcard">
+                        <div class="cardtext">
+                           <p>A clean home is a happy home, and our residential cleaning service is designed to keep your space looking its best. We begin with mopping and vacuuming floors, removing dust and dirt from every room.</p>
+                        <button class="btnservices"><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M12.8555 4.24094C13.1306 3.96599 13.5035 3.81152 13.8924 3.81152C14.2814 3.81152 14.6543 3.96599 14.9294 4.24094L21.5294 10.8409C21.8043 11.116 21.9588 11.489 21.9588 11.8779C21.9588 12.2668 21.8043 12.6398 21.5294 12.9148L14.9294 19.5148C14.6528 19.782 14.2823 19.9298 13.8977 19.9265C13.5132 19.9231 13.1453 19.7689 12.8734 19.4969C12.6015 19.225 12.4472 18.8572 12.4439 18.4726C12.4405 18.088 12.5884 17.7176 12.8555 17.4409L16.8258 13.3445H2.89245C2.50346 13.3445 2.13041 13.19 1.85536 12.915C1.5803 12.6399 1.42578 12.2669 1.42578 11.8779C1.42578 11.4889 1.5803 11.1158 1.85536 10.8408C2.13041 10.5657 2.50346 10.4112 2.89245 10.4112H16.8258L12.8555 6.31481C12.5806 6.03977 12.4261 5.66678 12.4261 5.27788C12.4261 4.88897 12.5806 4.51598 12.8555 4.24094Z" fill="inherit"/>
+                          </svg>
+                           See more</button>
+                        </div>
+                      </a>
+                    </div>
                     <div class="servicescard aos-fade">
                       <div class="cardtitle">
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -142,7 +159,7 @@
                           </svg>
                           <h3>Office <br>Cleaning</h3> 
                       </div>
-                      <a class="carda" href="https://lightslategray-kingfisher-564139.hostingersite.com/officecleaning/"><img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/serviceoffice.png" alt="" class="bgcard">
+                      <a class="carda" href="https://oliverscleaning.com/officecleaning/"><img src="https://oliverscleaning.com/wp-content/uploads/2024/11/serviceoffice.png" alt="" class="bgcard">
                         <div class="cardtext">
                           <button class="btnservices"><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12.8555 4.24094C13.1306 3.96599 13.5035 3.81152 13.8924 3.81152C14.2814 3.81152 14.6543 3.96599 14.9294 4.24094L21.5294 10.8409C21.8043 11.116 21.9588 11.489 21.9588 11.8779C21.9588 12.2668 21.8043 12.6398 21.5294 12.9148L14.9294 19.5148C14.6528 19.782 14.2823 19.9298 13.8977 19.9265C13.5132 19.9231 13.1453 19.7689 12.8734 19.4969C12.6015 19.225 12.4472 18.8572 12.4439 18.4726C12.4405 18.088 12.5884 17.7176 12.8555 17.4409L16.8258 13.3445H2.89245C2.50346 13.3445 2.13041 13.19 1.85536 12.915C1.5803 12.6399 1.42578 12.2669 1.42578 11.8779C1.42578 11.4889 1.5803 11.1158 1.85536 10.8408C2.13041 10.5657 2.50346 10.4112 2.89245 10.4112H16.8258L12.8555 6.31481C12.5806 6.03977 12.4261 5.66678 12.4261 5.27788C12.4261 4.88897 12.5806 4.51598 12.8555 4.24094Z" fill="inherit"/>
@@ -159,7 +176,7 @@
                           </svg>
                           <h3>Move-In/Move-<br>Out Cleaning</h3> 
                       </div>
-                      <a class="carda" href="https://lightslategray-kingfisher-564139.hostingersite.com/moveinandoutcleaning/"><img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/servicemove.png" alt="" class="bgcard">
+                      <a class="carda" href="https://oliverscleaning.com/moveinandoutcleaning/"><img src="https://oliverscleaning.com/wp-content/uploads/2024/11/servicemove.png" alt="" class="bgcard">
                         <div class="cardtext">
                         <button class="btnservices"><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M12.8555 4.24094C13.1306 3.96599 13.5035 3.81152 13.8924 3.81152C14.2814 3.81152 14.6543 3.96599 14.9294 4.24094L21.5294 10.8409C21.8043 11.116 21.9588 11.489 21.9588 11.8779C21.9588 12.2668 21.8043 12.6398 21.5294 12.9148L14.9294 19.5148C14.6528 19.782 14.2823 19.9298 13.8977 19.9265C13.5132 19.9231 13.1453 19.7689 12.8734 19.4969C12.6015 19.225 12.4472 18.8572 12.4439 18.4726C12.4405 18.088 12.5884 17.7176 12.8555 17.4409L16.8258 13.3445H2.89245C2.50346 13.3445 2.13041 13.19 1.85536 12.915C1.5803 12.6399 1.42578 12.2669 1.42578 11.8779C1.42578 11.4889 1.5803 11.1158 1.85536 10.8408C2.13041 10.5657 2.50346 10.4112 2.89245 10.4112H16.8258L12.8555 6.31481C12.5806 6.03977 12.4261 5.66678 12.4261 5.27788C12.4261 4.88897 12.5806 4.51598 12.8555 4.24094Z" fill="inherit"/>
@@ -176,7 +193,7 @@
                           </svg>
                           <h3>Post-Construction <br>Cleaning</h3> 
                       </div>
-                      <a class="carda" href="https://lightslategray-kingfisher-564139.hostingersite.com/postconstructioncleaning/"><img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/servicepost.png" alt="" class="bgcard">
+                      <a class="carda" href="https://oliverscleaning.com/postconstructioncleaning/"><img src="https://oliverscleaning.com/wp-content/uploads/2024/11/servicepost.png" alt="" class="bgcard">
                         <div class="cardtext">
                         <button class="btnservices"><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M12.8555 4.24094C13.1306 3.96599 13.5035 3.81152 13.8924 3.81152C14.2814 3.81152 14.6543 3.96599 14.9294 4.24094L21.5294 10.8409C21.8043 11.116 21.9588 11.489 21.9588 11.8779C21.9588 12.2668 21.8043 12.6398 21.5294 12.9148L14.9294 19.5148C14.6528 19.782 14.2823 19.9298 13.8977 19.9265C13.5132 19.9231 13.1453 19.7689 12.8734 19.4969C12.6015 19.225 12.4472 18.8572 12.4439 18.4726C12.4405 18.088 12.5884 17.7176 12.8555 17.4409L16.8258 13.3445H2.89245C2.50346 13.3445 2.13041 13.19 1.85536 12.915C1.5803 12.6399 1.42578 12.2669 1.42578 11.8779C1.42578 11.4889 1.5803 11.1158 1.85536 10.8408C2.13041 10.5657 2.50346 10.4112 2.89245 10.4112H16.8258L12.8555 6.31481C12.5806 6.03977 12.4261 5.66678 12.4261 5.27788C12.4261 4.88897 12.5806 4.51598 12.8555 4.24094Z" fill="inherit"/>
@@ -186,26 +203,28 @@
                         </div>
                       </a>
                     </div>
-                    <div class="servicescard cardresidential aos-fade">
-                      <div class="cardtitle">
-                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15 0L19.0514 10.9486L30 15L19.0514 19.0514L15 30L10.9486 19.0514L0 15L10.9486 10.9486L15 0Z" fill="#78C2DD"/>
-                          </svg>
-                          <h3>Residential <br>Cleaning</h3> 
-                      </div>
-                      <a class="carda" href="https://lightslategray-kingfisher-564139.hostingersite.com/residentialcleaning"><img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/serviceresidential.png" alt="" class="bgcard">
-                        <div class="cardtext">
-                           <p>A clean home is a happy home, and our residential cleaning service is designed to keep your space looking its best. We begin with mopping and vacuuming floors, removing dust and dirt from every room.</p>
-                        <button class="btnservices"><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M12.8555 4.24094C13.1306 3.96599 13.5035 3.81152 13.8924 3.81152C14.2814 3.81152 14.6543 3.96599 14.9294 4.24094L21.5294 10.8409C21.8043 11.116 21.9588 11.489 21.9588 11.8779C21.9588 12.2668 21.8043 12.6398 21.5294 12.9148L14.9294 19.5148C14.6528 19.782 14.2823 19.9298 13.8977 19.9265C13.5132 19.9231 13.1453 19.7689 12.8734 19.4969C12.6015 19.225 12.4472 18.8572 12.4439 18.4726C12.4405 18.088 12.5884 17.7176 12.8555 17.4409L16.8258 13.3445H2.89245C2.50346 13.3445 2.13041 13.19 1.85536 12.915C1.5803 12.6399 1.42578 12.2669 1.42578 11.8779C1.42578 11.4889 1.5803 11.1158 1.85536 10.8408C2.13041 10.5657 2.50346 10.4112 2.89245 10.4112H16.8258L12.8555 6.31481C12.5806 6.03977 12.4261 5.66678 12.4261 5.27788C12.4261 4.88897 12.5806 4.51598 12.8555 4.24094Z" fill="inherit"/>
-                          </svg>
-                           See more</button>
-                        </div>
-                      </a>
-                    </div>
                   </div>
                   <div class="servicesgrid gridmobile">
                     <swiper-container class="mySwiper3 aos-fade" pagination="true" pagination-clickable="true" space-between="10" slides-per-view="auto" loop="true" navigation="true" autoplay-delay="4000" pagination-dynamic-bullets="true">
+                      <swiper-slide class="swiper3">
+                        <div class="servicescard cardresidential aos-fade">
+                          <div class="cardtitle">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15 0L19.0514 10.9486L30 15L19.0514 19.0514L15 30L10.9486 19.0514L0 15L10.9486 10.9486L15 0Z" fill="#78C2DD"/>
+                              </svg>
+                              <h3>Residential <br>Cleaning</h3> 
+                          </div>
+                          <a class="carda" href="https://oliverscleaning.com/residentialcleaning"><img src="https://oliverscleaning.com/wp-content/uploads/2024/11/serviceresidential.png" alt="" class="bgcard">
+                            <div class="cardtext">
+                            <button class="btnservices"><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M12.8555 4.24094C13.1306 3.96599 13.5035 3.81152 13.8924 3.81152C14.2814 3.81152 14.6543 3.96599 14.9294 4.24094L21.5294 10.8409C21.8043 11.116 21.9588 11.489 21.9588 11.8779C21.9588 12.2668 21.8043 12.6398 21.5294 12.9148L14.9294 19.5148C14.6528 19.782 14.2823 19.9298 13.8977 19.9265C13.5132 19.9231 13.1453 19.7689 12.8734 19.4969C12.6015 19.225 12.4472 18.8572 12.4439 18.4726C12.4405 18.088 12.5884 17.7176 12.8555 17.4409L16.8258 13.3445H2.89245C2.50346 13.3445 2.13041 13.19 1.85536 12.915C1.5803 12.6399 1.42578 12.2669 1.42578 11.8779C1.42578 11.4889 1.5803 11.1158 1.85536 10.8408C2.13041 10.5657 2.50346 10.4112 2.89245 10.4112H16.8258L12.8555 6.31481C12.5806 6.03977 12.4261 5.66678 12.4261 5.27788C12.4261 4.88897 12.5806 4.51598 12.8555 4.24094Z" fill="inherit"/>
+                              </svg>
+                               See more</button>
+                               <p>A clean home is a happy home, and our residential cleaning service is designed to keep your space looking its best. We begin with mopping and vacuuming floors, removing dust and dirt from every room.</p>
+                            </div>
+                          </a>
+                        </div>
+                      </swiper-slide>
                       <swiper-slide class="swiper3">
                         <div class="servicescard aos-fade">
                           <div class="cardtitle">
@@ -214,7 +233,7 @@
                               </svg>
                               <h3>Office <br>Cleaning</h3> 
                           </div>
-                          <a class="carda" href="https://lightslategray-kingfisher-564139.hostingersite.com/officecleaning/"><img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/serviceoffice.png" alt="" class="bgcard">
+                          <a class="carda" href="https://oliverscleaning.com/officecleaning/"><img src="https://oliverscleaning.com/wp-content/uploads/2024/11/serviceoffice.png" alt="" class="bgcard">
                             <div class="cardtext">
                               <button class="btnservices"><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M12.8555 4.24094C13.1306 3.96599 13.5035 3.81152 13.8924 3.81152C14.2814 3.81152 14.6543 3.96599 14.9294 4.24094L21.5294 10.8409C21.8043 11.116 21.9588 11.489 21.9588 11.8779C21.9588 12.2668 21.8043 12.6398 21.5294 12.9148L14.9294 19.5148C14.6528 19.782 14.2823 19.9298 13.8977 19.9265C13.5132 19.9231 13.1453 19.7689 12.8734 19.4969C12.6015 19.225 12.4472 18.8572 12.4439 18.4726C12.4405 18.088 12.5884 17.7176 12.8555 17.4409L16.8258 13.3445H2.89245C2.50346 13.3445 2.13041 13.19 1.85536 12.915C1.5803 12.6399 1.42578 12.2669 1.42578 11.8779C1.42578 11.4889 1.5803 11.1158 1.85536 10.8408C2.13041 10.5657 2.50346 10.4112 2.89245 10.4112H16.8258L12.8555 6.31481C12.5806 6.03977 12.4261 5.66678 12.4261 5.27788C12.4261 4.88897 12.5806 4.51598 12.8555 4.24094Z" fill="inherit"/>
@@ -233,7 +252,7 @@
                               </svg>
                               <h3>Move-In/Move-<br>Out Cleaning</h3> 
                           </div>
-                          <a class="carda" href="https://lightslategray-kingfisher-564139.hostingersite.com/moveinandoutcleaning/"><img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/servicemove.png" alt="" class="bgcard">
+                          <a class="carda" href="https://oliverscleaning.com/moveinandoutcleaning/"><img src="https://oliverscleaning.com/wp-content/uploads/2024/11/servicemove.png" alt="" class="bgcard">
                             <div class="cardtext">
                             <button class="btnservices"><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M12.8555 4.24094C13.1306 3.96599 13.5035 3.81152 13.8924 3.81152C14.2814 3.81152 14.6543 3.96599 14.9294 4.24094L21.5294 10.8409C21.8043 11.116 21.9588 11.489 21.9588 11.8779C21.9588 12.2668 21.8043 12.6398 21.5294 12.9148L14.9294 19.5148C14.6528 19.782 14.2823 19.9298 13.8977 19.9265C13.5132 19.9231 13.1453 19.7689 12.8734 19.4969C12.6015 19.225 12.4472 18.8572 12.4439 18.4726C12.4405 18.088 12.5884 17.7176 12.8555 17.4409L16.8258 13.3445H2.89245C2.50346 13.3445 2.13041 13.19 1.85536 12.915C1.5803 12.6399 1.42578 12.2669 1.42578 11.8779C1.42578 11.4889 1.5803 11.1158 1.85536 10.8408C2.13041 10.5657 2.50346 10.4112 2.89245 10.4112H16.8258L12.8555 6.31481C12.5806 6.03977 12.4261 5.66678 12.4261 5.27788C12.4261 4.88897 12.5806 4.51598 12.8555 4.24094Z" fill="inherit"/>
@@ -252,32 +271,13 @@
                               </svg>
                               <h3>Post-Construction <br>Cleaning</h3> 
                           </div>
-                          <a class="carda" href="https://lightslategray-kingfisher-564139.hostingersite.com/postconstructioncleaning/"><img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/servicepost.png" alt="" class="bgcard">
+                          <a class="carda" href="https://oliverscleaning.com/postconstructioncleaning/"><img src="https://oliverscleaning.com/wp-content/uploads/2024/11/servicepost.png" alt="" class="bgcard">
                             <div class="cardtext">
                             <button class="btnservices"><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M12.8555 4.24094C13.1306 3.96599 13.5035 3.81152 13.8924 3.81152C14.2814 3.81152 14.6543 3.96599 14.9294 4.24094L21.5294 10.8409C21.8043 11.116 21.9588 11.489 21.9588 11.8779C21.9588 12.2668 21.8043 12.6398 21.5294 12.9148L14.9294 19.5148C14.6528 19.782 14.2823 19.9298 13.8977 19.9265C13.5132 19.9231 13.1453 19.7689 12.8734 19.4969C12.6015 19.225 12.4472 18.8572 12.4439 18.4726C12.4405 18.088 12.5884 17.7176 12.8555 17.4409L16.8258 13.3445H2.89245C2.50346 13.3445 2.13041 13.19 1.85536 12.915C1.5803 12.6399 1.42578 12.2669 1.42578 11.8779C1.42578 11.4889 1.5803 11.1158 1.85536 10.8408C2.13041 10.5657 2.50346 10.4112 2.89245 10.4112H16.8258L12.8555 6.31481C12.5806 6.03977 12.4261 5.66678 12.4261 5.27788C12.4261 4.88897 12.5806 4.51598 12.8555 4.24094Z" fill="inherit"/>
                               </svg>
                                See more</button>
                                <p>After the dust settles from construction or renovation, your new space can feel far from finished.</p>
-                            </div>
-                          </a>
-                        </div>
-                      </swiper-slide>
-                      <swiper-slide class="swiper3">
-                        <div class="servicescard cardresidential aos-fade">
-                          <div class="cardtitle">
-                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M15 0L19.0514 10.9486L30 15L19.0514 19.0514L15 30L10.9486 19.0514L0 15L10.9486 10.9486L15 0Z" fill="#78C2DD"/>
-                              </svg>
-                              <h3>Residential <br>Cleaning</h3> 
-                          </div>
-                          <a class="carda" href="https://lightslategray-kingfisher-564139.hostingersite.com/residentialcleaning"><img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/serviceresidential.png" alt="" class="bgcard">
-                            <div class="cardtext">
-                            <button class="btnservices"><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M12.8555 4.24094C13.1306 3.96599 13.5035 3.81152 13.8924 3.81152C14.2814 3.81152 14.6543 3.96599 14.9294 4.24094L21.5294 10.8409C21.8043 11.116 21.9588 11.489 21.9588 11.8779C21.9588 12.2668 21.8043 12.6398 21.5294 12.9148L14.9294 19.5148C14.6528 19.782 14.2823 19.9298 13.8977 19.9265C13.5132 19.9231 13.1453 19.7689 12.8734 19.4969C12.6015 19.225 12.4472 18.8572 12.4439 18.4726C12.4405 18.088 12.5884 17.7176 12.8555 17.4409L16.8258 13.3445H2.89245C2.50346 13.3445 2.13041 13.19 1.85536 12.915C1.5803 12.6399 1.42578 12.2669 1.42578 11.8779C1.42578 11.4889 1.5803 11.1158 1.85536 10.8408C2.13041 10.5657 2.50346 10.4112 2.89245 10.4112H16.8258L12.8555 6.31481C12.5806 6.03977 12.4261 5.66678 12.4261 5.27788C12.4261 4.88897 12.5806 4.51598 12.8555 4.24094Z" fill="inherit"/>
-                              </svg>
-                               See more</button>
-                               <p>A clean home is a happy home, and our residential cleaning service is designed to keep your space looking its best. We begin with mopping and vacuuming floors, removing dust and dirt from every room.</p>
                             </div>
                           </a>
                         </div>
@@ -291,9 +291,15 @@
                 <small>What people are</small>
                 <h2>saying</h2>
               </div>  
-              <!-- reviews aqui -->
-              <br><br>
-                <div class="reviewstitle reviewstitle2">
+              <!-- reviews aqui    [trustindex no-registration=google]    -->
+               <br><br>
+              <div class="reviewsgrid">
+                <?php
+                // Exemplo de integração do shortcode Trustindex.io
+                echo do_shortcode('[trustindex no-registration=google]');
+                ?>
+               </div>
+              <div class="reviewstitle reviewstitle2">
                   <button class="btnestimate aos-fade btnreview"><a href="#"><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M21 6.5C21 7.87 19.824 9 18.375 9C16.926 9 15.75 7.87 15.75 6.5C15.75 7.87 14.574 9 13.125 9C11.676 9 10.5 7.87 10.5 6.5C10.5 7.87 9.324 9 7.875 9C6.426 9 5.25 7.87 5.25 6.5C5.25 7.87 4.074 9 2.625 9C1.176 9 0 7.87 0 6.5L1.4595 1.08C1.4595 1.08 1.764 0 2.835 0H18.165C19.236 0 19.5405 1.08 19.5405 1.08L21 6.5ZM19.95 10.2V18C19.95 19.1 19.005 20 17.85 20H3.15C1.995 20 1.05 19.1 1.05 18V10.2C1.74025 10.4714 2.49451 10.5608 3.23355 10.4588C3.97259 10.3567 4.66913 10.067 5.25 9.62C5.9745 10.17 6.888 10.5 7.875 10.5C8.8725 10.5 9.786 10.17 10.5 9.62C11.2245 10.17 12.138 10.5 13.125 10.5C14.1225 10.5 15.036 10.17 15.75 9.62C16.464 10.17 17.388 10.5 18.375 10.5C18.9315 10.5 19.467 10.39 19.95 10.2ZM17.85 15.33C17.85 15.13 17.85 14.92 17.7975 14.7L17.766 14.54H14.6475V15.71H16.548C16.485 15.93 16.401 16.15 16.2225 16.33C15.876 16.66 15.4035 16.84 14.8995 16.84C14.3745 16.84 13.86 16.63 13.482 16.28C12.7575 15.57 12.7575 14.42 13.503 13.7C14.2275 13 15.4245 13 16.1805 13.67L16.3275 13.8L17.2095 12.95L17.0415 12.81C16.4535 12.29 15.6765 12 14.8575 12H14.847C13.9965 12 13.1985 12.31 12.6 12.87C11.9805 13.45 11.634 14.21 11.634 15C11.634 15.8 11.9595 16.54 12.558 17.09C13.1817 17.6698 14.0175 17.9961 14.889 18H14.91C15.75 18 16.4955 17.71 17.0415 17.2C17.535 16.72 17.85 16 17.85 15.33Z" fill="white"/>
                     </svg>
@@ -385,7 +391,7 @@
                   </div>
                 </div>
               </div>
-              <img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/oliver-logo.png" alt="">
+              <img src="https://oliverscleaning.com/wp-content/uploads/2024/11/oliver-logo.png" alt="">
             </div>
             <div class="gallerycontainer container" id="portfolio">
                 <div class="gallerytitle aos-fade">
@@ -393,48 +399,48 @@
                     <small>PORTFOLIO</small>
                     <h2>Our Work in Action</h2>
                   </div>
-                  <img class="line" src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/line.png" alt="">
+                  <img class="line" src="https://oliverscleaning.com/wp-content/uploads/2024/11/line.png" alt="">
                 </div>
                 <div class="gallerygrid">
                   <swiper-container class="mySwiper2 aos-fade" pagination="true" pagination-clickable="true" space-between="10" slides-per-view="auto" loop="true" navigation="true" autoplay-delay="4000" pagination-dynamic-bullets="true">
                     <swiper-slide class="swiper2">
                       <div>
-                        <img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/2.png" alt="">
+                        <img src="https://oliverscleaning.com/wp-content/uploads/2024/11/2.png" alt="">
                       </div>
                     </swiper-slide>
                     <swiper-slide class="swiper2">
                       <div>
-                        <img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/3.png" alt="">
+                        <img src="https://oliverscleaning.com/wp-content/uploads/2024/11/3.png" alt="">
                       </div>
                     </swiper-slide>
                     <swiper-slide class="swiper2">
                       <div>
-                        <img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/4.png" alt="">
+                        <img src="https://oliverscleaning.com/wp-content/uploads/2024/11/4.png" alt="">
                       </div>
                     </swiper-slide>
                     <swiper-slide class="swiper2">
                       <div>
-                        <img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/5.png" alt="">
+                        <img src="https://oliverscleaning.com/wp-content/uploads/2024/11/5.png" alt="">
                       </div>
                     </swiper-slide>
                     <swiper-slide class="swiper2">
                       <div>
-                        <img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/2.png" alt="">
+                        <img src="https://oliverscleaning.com/wp-content/uploads/2024/11/2.png" alt="">
                       </div>
                     </swiper-slide>
                     <swiper-slide class="swiper2">
                       <div>
-                        <img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/3.png" alt="">
+                        <img src="https://oliverscleaning.com/wp-content/uploads/2024/11/3.png" alt="">
                       </div>
                     </swiper-slide>
                     <swiper-slide class="swiper2">
                       <div>
-                        <img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/4.png" alt="">
+                        <img src="https://oliverscleaning.com/wp-content/uploads/2024/11/4.png" alt="">
                       </div>
                     </swiper-slide>
                     <swiper-slide class="swiper2">
                       <div>
-                        <img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/5.png" alt="">
+                        <img src="https://oliverscleaning.com/wp-content/uploads/2024/11/5.png" alt="">
                       </div>
                     </swiper-slide>
                   </swiper-container>              
@@ -461,14 +467,14 @@
             </div>
           </div>
           <div class="contactcontainer container" id="contact">
-            <video class="videoposter" src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/53abd497c3c48cc93bdff996fbd9be6a.mp4" autoplay playsinline muted loop></video>
+            <video class="videoposter" src="https://oliverscleaning.com/wp-content/uploads/2024/11/53abd497c3c48cc93bdff996fbd9be6a.mp4" autoplay playsinline muted loop></video>
             <div class="overlay overlay2"></div>
             <div class="contact">
               <small>GET A GREE ESTIMATE</small>
               <h2>Tired of messy spaces?</h2>
               <p>Get a free quote and simplify your cleaning routine today.</p>
             <!-- form popup -->
-              <button class="btnestimate aos-fade"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+              <button class="btnestimate popmake-109"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
               <g clip-path="url(#clip0_28135_69)">
                 <path d="M18.802 12.8995C19.077 13.1745 19.2314 13.5475 19.2314 13.9364C19.2314 14.3253 19.077 14.6983 18.802 14.9733L12.202 21.5733C11.927 21.8483 11.554 22.0027 11.1651 22.0027C10.7762 22.0027 10.4032 21.8483 10.1282 21.5733L3.52816 14.9733C3.26099 14.6967 3.11316 14.3262 3.1165 13.9417C3.11985 13.5571 3.27409 13.1893 3.54603 12.9173C3.81796 12.6454 4.18582 12.4911 4.57037 12.4878C4.95493 12.4845 5.32541 12.6323 5.60203 12.8995L9.69843 16.8697L9.69843 2.93639C9.69843 2.54741 9.85295 2.17436 10.128 1.8993C10.4031 1.62425 10.7761 1.46973 11.1651 1.46973C11.5541 1.46973 11.9271 1.62425 12.2022 1.8993C12.4772 2.17436 12.6318 2.54741 12.6318 2.93639L12.6318 16.8697L16.7282 12.8995C17.0032 12.6245 17.3762 12.47 17.7651 12.47C18.154 12.47 18.527 12.6245 18.802 12.8995Z" fill="inherit"/>
               </g>
@@ -485,10 +491,10 @@
               <small>contact</small>
               <h2>Areas <br>We Serve</h2>
             </div>
-            <img class="line" src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/line.png" alt="">
+            <img class="line" src="https://oliverscleaning.com/wp-content/uploads/2024/11/line.png" alt="">
             <div class="areas">
               <div class="mapcontainer">
-                <img src="https://lightslategray-kingfisher-564139.hostingersite.com/wp-content/uploads/2024/11/map.png" alt="">
+                <img src="https://oliverscleaning.com/wp-content/uploads/2024/11/map.png" alt="">
               </div>
               <div class="listareas">
                 <ul>
