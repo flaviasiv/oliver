@@ -49,24 +49,8 @@ a{
 footer ul{
     list-style: none;
 }
-.footerabout ul li{
-    display: flex;
-    align-items: center;
-    font-family: 'Poppins';
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 190%; 
-}
-.footerabout ul{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-.footerabout ul h5{
-    font-family: 'Poppins';
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 140%; 
+.footerabout img{
+    max-width: 200px;
 }
 .footernav ul {
     display: flex;
