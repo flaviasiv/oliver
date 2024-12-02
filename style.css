@@ -666,6 +666,14 @@ swiper-slide.swiper1 {
 .content{
     background-color: #100F0D;
 }
+.imgcontent{
+    width: 100%;
+    max-width: 1080px;
+    max-height: 425px;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 16px;
+}
 .contentservices, .contentgrid{
     display: flex;
     flex-direction: column;
@@ -783,14 +791,16 @@ swiper-slide.swiper1 {
         flex-direction: column;
     }
     .poster{
-        padding: 150px 0 90px;
+        padding: 120px 0 50px;
     }
     .postercontainer video{
         top: 0;
         width: 100vw;    
+        height: 600px;
     }
-    .overlay {
+    .postercontainer .overlay, .postercontainer {
         width: 100vw;    
+        height: 600px;
     }
     .logo-poster{
         max-width: 170px;
@@ -807,6 +817,7 @@ swiper-slide.swiper1 {
      }
      .bg-blue-l{
         padding: 200px 0;
+        margin-top: -120px;
      }
     .servicestitle{
         text-align: center;
@@ -1006,16 +1017,6 @@ swiper-slide.swiper1 {
     .contenttitle{
         text-align: center;
     }
-    .contenttitle h2{
-        color: var(--Color-Brand-main, #3481B5);
-        font-family: "Bebas Neue";
-        font-size: 96px;
-        font-weight: 700;
-        line-height: 80%; 
-    }
-    .contenttitle h2 span{
-        color: var(--Color-Brand-main-high, #2A315D);
-    }
     .contenttitle .btnestimate{
         margin: auto;
         margin-bottom: 30px;
@@ -1034,7 +1035,6 @@ swiper-slide.swiper1 {
     }
     .contentcard{
         border-radius: 20px;
-        border: 2px solid var(--Color-Brand-main, #3481B5);
         display: flex;
         width: 180px;
         height: 301px;
@@ -1071,4 +1071,8 @@ swiper-slide.swiper1 {
     .contacttitle h2{
         font-size: 60px;
     } 
+}
+
+.footerabout img{
+    max-width: 200px;
 }

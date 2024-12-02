@@ -30,7 +30,7 @@
     <?php wp_head(); ?> <!-- Essa função é necessária para carregar scripts e estilos do WordPress e plugins -->
     <style>footer{
     background-color: #000;
-    border-top: 4px solid #78C2DD;
+    border-top: 1px solid #78C2DD;
 }
 .footergrid{
     display: flex;
@@ -93,7 +93,7 @@ footer ul{
     padding: 0;
     align-items: center;
     text-align: center;    
-    border-top: 1px solid #3481B5;
+    border-top: 1px solid #78C2DD;
 }
 .footer-credits ul{
     display: flex;
@@ -110,8 +110,8 @@ footer ul{
     line-height: 150%;
 }
 footer a:hover, footer a:hover svg{
-    color: #3481B5;
-    fill: #3481B5;
+    color: #78C2DD;
+    fill: #78C2DD;
 }
 @media screen and (max-width:890px) {
     .footergrid{
@@ -131,7 +131,6 @@ footer a:hover, footer a:hover svg{
     }
     .footergrid div{
         padding: 20px 0;
-        border-top: 2px solid #FFFFFF;
         width: 200px;
     }
     .address ul li{

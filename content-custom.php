@@ -30,33 +30,35 @@ Template Name: custom
   <body>
     
   <div class="reviewscontainer container" id="reviews">
-    <div class="reviewstitle aos-fade">
-      <small>What people are</small>
-      <h2>saying</h2>
-    </div>  
-    <!-- reviews aqui    [trustindex no-registration=google]    -->
-    <?php
-    // Exemplo de integração do shortcode Trustindex.io
-    echo do_shortcode('[trustindex no-registration=google]');
-    ?>
-    
-    <div class="reviewstitle reviewstitle2">
-        <button class="btnestimate aos-fade btnreview"><a href="#"><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M21 6.5C21 7.87 19.824 9 18.375 9C16.926 9 15.75 7.87 15.75 6.5C15.75 7.87 14.574 9 13.125 9C11.676 9 10.5 7.87 10.5 6.5C10.5 7.87 9.324 9 7.875 9C6.426 9 5.25 7.87 5.25 6.5C5.25 7.87 4.074 9 2.625 9C1.176 9 0 7.87 0 6.5L1.4595 1.08C1.4595 1.08 1.764 0 2.835 0H18.165C19.236 0 19.5405 1.08 19.5405 1.08L21 6.5ZM19.95 10.2V18C19.95 19.1 19.005 20 17.85 20H3.15C1.995 20 1.05 19.1 1.05 18V10.2C1.74025 10.4714 2.49451 10.5608 3.23355 10.4588C3.97259 10.3567 4.66913 10.067 5.25 9.62C5.9745 10.17 6.888 10.5 7.875 10.5C8.8725 10.5 9.786 10.17 10.5 9.62C11.2245 10.17 12.138 10.5 13.125 10.5C14.1225 10.5 15.036 10.17 15.75 9.62C16.464 10.17 17.388 10.5 18.375 10.5C18.9315 10.5 19.467 10.39 19.95 10.2ZM17.85 15.33C17.85 15.13 17.85 14.92 17.7975 14.7L17.766 14.54H14.6475V15.71H16.548C16.485 15.93 16.401 16.15 16.2225 16.33C15.876 16.66 15.4035 16.84 14.8995 16.84C14.3745 16.84 13.86 16.63 13.482 16.28C12.7575 15.57 12.7575 14.42 13.503 13.7C14.2275 13 15.4245 13 16.1805 13.67L16.3275 13.8L17.2095 12.95L17.0415 12.81C16.4535 12.29 15.6765 12 14.8575 12H14.847C13.9965 12 13.1985 12.31 12.6 12.87C11.9805 13.45 11.634 14.21 11.634 15C11.634 15.8 11.9595 16.54 12.558 17.09C13.1817 17.6698 14.0175 17.9961 14.889 18H14.91C15.75 18 16.4955 17.71 17.0415 17.2C17.535 16.72 17.85 16 17.85 15.33Z" fill="white"/>
-          </svg>
-          Google My Business</a></button>
-        <svg width="125" height="25" viewBox="0 0 125 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12.5 0L15.3064 8.63729H24.3882L17.0409 13.9754L19.8473 22.6127L12.5 17.2746L5.15268 22.6127L7.95911 13.9754L0.611794 8.63729H9.69357L12.5 0Z" fill="#E7C673"/>
-          <path d="M37.5 0L40.3064 8.63729H49.3882L42.0409 13.9754L44.8473 22.6127L37.5 17.2746L30.1527 22.6127L32.9591 13.9754L25.6118 8.63729H34.6936L37.5 0Z" fill="#E7C673"/>
-          <path d="M62.5 0L65.3064 8.63729H74.3882L67.0409 13.9754L69.8473 22.6127L62.5 17.2746L55.1527 22.6127L57.9591 13.9754L50.6118 8.63729H59.6936L62.5 0Z" fill="#E7C673"/>
-          <path d="M87.5 0L90.3064 8.63729H99.3882L92.0409 13.9754L94.8473 22.6127L87.5 17.2746L80.1527 22.6127L82.9591 13.9754L75.6118 8.63729H84.6936L87.5 0Z" fill="#E7C673"/>
-          <path d="M112.5 0L115.306 8.63729H124.388L117.041 13.9754L119.847 22.6127L112.5 17.2746L105.153 22.6127L107.959 13.9754L100.612 8.63729H109.694L112.5 0Z" fill="#E7C673"/>
-          </svg>
-          <p>Locate us and enjoy top-quality cleaning services!</p>
-      </div>
-    </div>
+              <div class="reviewstitle aos-fade">
+                <small>What people are</small>
+                <h2>saying</h2>
+              </div>  
+              <!-- reviews aqui    [trustindex no-registration=google]    -->
+               <br><br>
+              <div class="reviewsgrid">
+                <?php
+                // Exemplo de integração do shortcode Trustindex.io
+                echo do_shortcode('[trustindex no-registration=google]');
+                ?>
+               </div>
+              <div class="reviewstitle reviewstitle2">
+                  <button class="btnestimate aos-fade btnreview"><a href="https://g.page/r/CYV8CK_EwxToEBM/review"><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 6.5C21 7.87 19.824 9 18.375 9C16.926 9 15.75 7.87 15.75 6.5C15.75 7.87 14.574 9 13.125 9C11.676 9 10.5 7.87 10.5 6.5C10.5 7.87 9.324 9 7.875 9C6.426 9 5.25 7.87 5.25 6.5C5.25 7.87 4.074 9 2.625 9C1.176 9 0 7.87 0 6.5L1.4595 1.08C1.4595 1.08 1.764 0 2.835 0H18.165C19.236 0 19.5405 1.08 19.5405 1.08L21 6.5ZM19.95 10.2V18C19.95 19.1 19.005 20 17.85 20H3.15C1.995 20 1.05 19.1 1.05 18V10.2C1.74025 10.4714 2.49451 10.5608 3.23355 10.4588C3.97259 10.3567 4.66913 10.067 5.25 9.62C5.9745 10.17 6.888 10.5 7.875 10.5C8.8725 10.5 9.786 10.17 10.5 9.62C11.2245 10.17 12.138 10.5 13.125 10.5C14.1225 10.5 15.036 10.17 15.75 9.62C16.464 10.17 17.388 10.5 18.375 10.5C18.9315 10.5 19.467 10.39 19.95 10.2ZM17.85 15.33C17.85 15.13 17.85 14.92 17.7975 14.7L17.766 14.54H14.6475V15.71H16.548C16.485 15.93 16.401 16.15 16.2225 16.33C15.876 16.66 15.4035 16.84 14.8995 16.84C14.3745 16.84 13.86 16.63 13.482 16.28C12.7575 15.57 12.7575 14.42 13.503 13.7C14.2275 13 15.4245 13 16.1805 13.67L16.3275 13.8L17.2095 12.95L17.0415 12.81C16.4535 12.29 15.6765 12 14.8575 12H14.847C13.9965 12 13.1985 12.31 12.6 12.87C11.9805 13.45 11.634 14.21 11.634 15C11.634 15.8 11.9595 16.54 12.558 17.09C13.1817 17.6698 14.0175 17.9961 14.889 18H14.91C15.75 18 16.4955 17.71 17.0415 17.2C17.535 16.72 17.85 16 17.85 15.33Z" fill="white"/>
+                    </svg>
+                    Google My Business</a></button>
+                  <svg width="125" height="25" viewBox="0 0 125 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.5 0L15.3064 8.63729H24.3882L17.0409 13.9754L19.8473 22.6127L12.5 17.2746L5.15268 22.6127L7.95911 13.9754L0.611794 8.63729H9.69357L12.5 0Z" fill="#E7C673"/>
+                    <path d="M37.5 0L40.3064 8.63729H49.3882L42.0409 13.9754L44.8473 22.6127L37.5 17.2746L30.1527 22.6127L32.9591 13.9754L25.6118 8.63729H34.6936L37.5 0Z" fill="#E7C673"/>
+                    <path d="M62.5 0L65.3064 8.63729H74.3882L67.0409 13.9754L69.8473 22.6127L62.5 17.2746L55.1527 22.6127L57.9591 13.9754L50.6118 8.63729H59.6936L62.5 0Z" fill="#E7C673"/>
+                    <path d="M87.5 0L90.3064 8.63729H99.3882L92.0409 13.9754L94.8473 22.6127L87.5 17.2746L80.1527 22.6127L82.9591 13.9754L75.6118 8.63729H84.6936L87.5 0Z" fill="#E7C673"/>
+                    <path d="M112.5 0L115.306 8.63729H124.388L117.041 13.9754L119.847 22.6127L112.5 17.2746L105.153 22.6127L107.959 13.9754L100.612 8.63729H109.694L112.5 0Z" fill="#E7C673"/>
+                    </svg>
+                    <p>Locate us and enjoy top-quality cleaning services!</p>
+                </div>
+            </div>
 
-          <div class="contactcontainer container" id="contact">
+            <div class="contactcontainer container" id="contact">
             <video class="videoposter" src="https://oliverscleaning.com/wp-content/uploads/2024/11/53abd497c3c48cc93bdff996fbd9be6a.mp4" autoplay playsinline muted loop></video>
             <div class="overlay overlay2"></div>
             <div class="contact">
@@ -80,12 +82,12 @@ Template Name: custom
           <div class="areascontainer container">
             <div class="areastitle title aos-fade">
               <small>contact</small>
-              <h2>AREAS WE SERVE</h2>
+              <h2>Areas <br>We Serve</h2>
             </div>
             <img class="line" src="https://oliverscleaning.com/wp-content/uploads/2024/11/line.png" alt="">
             <div class="areas">
               <div class="mapcontainer">
-                <img src="https://oliverscleaning.com/wp-content/uploads/2024/11/map.png" alt="">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d390979.66439410317!2d-83.0553823!3d40.04130245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88a3f1dac55da609%3A0xe814c3c4af087c85!2sOliver%C2%B4s%20Cleaning!5e0!3m2!1spt-BR!2sbr!4v1732734213605!5m2!1spt-BR!2sbr"  style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
               <div class="listareas">
                 <ul>
