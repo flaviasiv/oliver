@@ -19,24 +19,8 @@ a{
 footer ul{
     list-style: none;
 }
-.footerabout ul li{
-    display: flex;
-    align-items: center;
-    font-family: 'Poppins';
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 190%; 
-}
-.footerabout ul{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-.footerabout ul h5{
-    font-family: 'Poppins';
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 140%; 
+.footerabout img{
+    max-width: 200px;
 }
 .footernav ul {
     display: flex;
@@ -68,7 +52,7 @@ footer ul{
 .address li svg{
     fill: #fff;
 }
-.rights{
+.footer-credits{
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -81,15 +65,15 @@ footer ul{
     text-align: center;    
     border-top: 1px solid #78C2DD;
 }
-.rights ul{
+.footer-credits ul{
     display: flex;
     gap: 20px;
     list-style: none;
 }
-.rights ul li a{
+.footer-credits ul li a{
     color: #fff;
 }
-.rights p, .rights ul li{
+.footer-credits p, .footer-credits ul li{
     color: #fff;
     font-size: 14.4px;
     font-weight: 300;
@@ -131,4 +115,13 @@ footer a:hover, footer a:hover svg{
         flex-direction: column;
         gap: 0px !important;
     }
+/*  .footer-credits{
+        flex-direction: column;
+        padding: 30px 0 0 !important;
+        height: 120px !important;
+    }
+    .footer-credits ul{
+        flex-direction: column;
+        gap: 0px !important;
+    } */
 }

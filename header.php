@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <title><?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?></title>
     <?php wp_head(); ?> <!-- Essa função é necessária para carregar scripts e estilos do WordPress e plugins -->
-    <style>header {
+    <style>
+    header {
   position: relative;
   display:flex;
   justify-content: space-between;
@@ -138,15 +139,14 @@
   stroke: #fff;
   width: 21px;
 }
-/* .callnow a:hover{
-background: #3481B5;
+.callnow a:hover{
+background: #3E606C;
 transition: 0.15s;
-color: #fff;
 }
-.callnow a:hover svg{
-  stroke: #fff;
-  transition: 0.15s;
-} */
+.menusocial ul li a:hover svg circle{
+  fill: #3E606C;
+transition: 0.15s;
+}
 .btn-toggle{display: none;}
 .logo-m{
 z-index: 9;
@@ -326,7 +326,6 @@ align-items: end;
      display: block; /* Exibe o menu quando o botão for clicado */
  }
 }
-
     </style>
 </head>
 <body <?php body_class(); ?>>
